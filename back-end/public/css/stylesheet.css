@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#navi {
+    
+    float: left;
+    background-color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    
+}
+#navi h1{
+    float: left;
+    width: 20%;
+    color:chartreuse;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+#navi a {
+    padding: 30px;
+    color: white;
+    
+}
+a:hover {
+    background-color: grey;
+}
+
+.contend {
+    float: left;
+    text-align: center;
+    width: 100%;
+    min-height: 1000px;
+    background-color: hotpink;
+}
+
+.showscreen{
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    min-height: 450px;
+    margin-top: 5%;
+    border-radius: 5%;
+    padding: 50px;
+    padding-top: 50px;
+    /* font-size: 30px; */
+}
+.showscreen .login {
+    display: inline-block;
+}
+.showscreen .mainscreen{
+    display: none;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.addcontact{
+    display: none;
+    text-align:left;
+    font: 25px Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Save Button */
+#savebtn{
+  background-color: #4CAF50;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.updatescreen{
+    display: none;
+    text-align:left;
+    font: 25px Arial, sans-serif;
+    font-weight: bold;
+}
+.karte {
+    float:right;
+    width: 50%;
+    height: 100%;
+    flex: 50%;  
+}
+
+.hartcodiert {
+    float:left;
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    flex: 50%;  
+}
+.hartcodiert .buttons{
+    width: 100%;
+    height: 15%;
+    
+}
+.hartcodiert button{
+    background-color: brown;
+    font-size: 13px;
+    text-align: center;
+    width: 30%;
+    color: yellow;
+    font-weight: 200;
+}
+.hartcodiert .rechtecke{
+    width: 91%;
+    min-height: 30px;
+    margin-left: -5%;
+    
+    margin-bottom: 21px;
+    background-color: lightsalmon;
+    padding: 5px;
+}
+
+
+
+input{
+    font-size: 30px;
+}
