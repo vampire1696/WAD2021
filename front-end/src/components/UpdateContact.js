@@ -17,7 +17,7 @@ export default function UpdateContact() {
         e.preventDefault();
         const option = {
             method:"delete",
-            url:`http://localhost:5000/contact/${contactUpdate._id}`, 
+            url:`https://wad2021.herokuapp.com/contact/${contactUpdate._id}`, 
         };
         await axios(option);
         history.push("/main");
@@ -64,7 +64,7 @@ const latlongHandle = async (contact) =>{
             e.preventDefault();
             const option = {
                 method:"put",
-                url:`http://localhost:5000/contact/${contactUpdate._id}`, 
+                url:`https://wad2021.herokuapp.com/contact/${contactUpdate._id}`, 
                 data:contactInput,
             };
             const response = await axios(option);

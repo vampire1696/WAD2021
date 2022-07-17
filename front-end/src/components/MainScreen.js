@@ -19,7 +19,7 @@ export default function MainScreen() {
         try {
             const option = {
                 method: "get",
-                url:"http://localhost:5000/contact",
+                url:"https://wad2021.herokuapp.com/contact",
             }
             const response = await axios(option);
             const contacts = response.data.contacts;

@@ -16,7 +16,7 @@ export default function Login() {
             e.preventDefault();
             const option = {
                 method:"post",
-                url:"http://localhost:5000/login",
+                url:"https://wad2021.herokuapp.com/login",
                 data:userInput,
             };
             const response = await axios(option);

@@ -47,7 +47,7 @@ export default function AddContact() {
             e.preventDefault();
             const option = {
                 method:"post",
-                url:"http://localhost:5000/contact",
+                url:"https://wad2021.herokuapp.com/contact",
                 data:contactInput,
             };
             const response = await axios(option);
